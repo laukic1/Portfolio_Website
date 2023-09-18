@@ -16,6 +16,7 @@
     height: 100%;
     -webkit-clip-path: none;
     clip-path: none;
+    
   }
 
   .about-wrapper {
@@ -35,6 +36,7 @@
       @include respond(tab-port-sm) {
         padding-bottom: 6.4rem;
       }
+      
     }
 
     &__info {
@@ -77,3 +79,4 @@
     }
   }
 }
+
